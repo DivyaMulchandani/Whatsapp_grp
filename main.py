@@ -36,7 +36,6 @@ def Group_add(name):
         user.click()
         time.sleep(10)
     except:
-        
         print("WhatsApp group doesn't exist")
         print("Please Try again")
         return
