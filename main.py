@@ -22,7 +22,7 @@ def Group_add(name):
     option = webdriver.ChromeOptions()
     option.add_argument(r' --user-data-dir=C:\Users\Admin\AppData\Local\Google\Chrome\User Data\Default')
     option.add_argument(' --profile-directory=Default')
-    service = Service(executable_path='C:\\Users\divya mulchandani\OneDrive\Documents\wp grp\chromedriver.exe')
+    service = Service(executable_path='C:\\Users\divya mulchandani\OneDrive\Desktop\Whatsapp_grp\chromedriver.exe')
     options = webdriver.ChromeOptions()
     chrome_browser = webdriver.Chrome(service=service, options=options)
 
